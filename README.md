@@ -20,25 +20,6 @@ saudi-national-day-hero/
 
 > **Note:** The `images` folder contains three subfolders (header-img-01, header-img-02, header-img-03), each with shared image assets used across all three templates.
 
-## 🎨 Three Design Variations (DGA Templates)
-
-This project includes three distinct hero section designs from the Digital Government Authority (DGA):
-
-1. **Design 1 (index.html)** - Primary DGA design with auto-playing slideshow
-2. **Design 2 (index-2.html)** - DGA layout with **custom inline styles**
-3. **Design 3 (index-3.html)** - DGA layout with **custom inline styles**
-
-### 📸 Image Assets
-
-All three templates share image assets located in the `images` folder:
-- **`images/header-img-01/`** - Contains images used in Design 1
-- **`images/header-img-02/`** - Contains images used in Design 2  
-- **`images/header-img-03/`** - Contains images used in Design 3
-
-These image folders are shared across all templates and can be reused or swapped between designs.
-
-> **Note:** All designs follow DGA standards and guidelines. Design 2 and Design 3 have their own unique styling embedded within their HTML files for specific visual variations, while still utilizing the shared `styles.css` for common elements.
-
 ## 🚀 Quick Start
 
 ### Option 1: Direct Browser Opening
@@ -58,46 +39,6 @@ If you're opening this project in **Visual Studio Code**, we recommend using the
 3. Right-click on any HTML file (index.html, design-2.html, or design-3.html)
 4. Select **"Open with Live Server"**
 5. The page will open in your browser with auto-reload on file changes
-
-**Benefits of Live Server:**
-- ✅ Auto-refresh when you save changes
-- ✅ Better handling of external CSS and JS files
-- ✅ Local development server environment
-- ✅ Faster development workflow
-
-### Slideshow Timing
-
-Modify the slide interval in `script.js`:
-
-```javascript
-const SLIDE_INTERVAL = 10000; // Change to desired milliseconds
-```
-
-### Hero Content
-
-Edit the text content in any HTML file within the `.overlay-content` section.
-
-### Custom Styles (Design 2 & 3)
-
-Design 2 and Design 3 include custom inline styles within their `<style>` tags. These can be:
-- Modified directly in the HTML file for quick changes
-- Extracted to separate CSS files if preferred
-- Used as inspiration for creating additional design variations
-
-## 📱 Responsive Breakpoints
-
-- **Desktop**: 1920px and above
-- **Laptop**: 1024px - 1919px
-- **Tablet**: 768px - 1023px
-- **Mobile**: 480px - 767px
-- **Small Mobile**: Below 480px
-
-## 🌐 Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
 
 ## 👨‍💻 Development
 
